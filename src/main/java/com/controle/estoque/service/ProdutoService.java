@@ -27,7 +27,7 @@ public class ProdutoService {
         if (verificarCliente.isEmpty()) {
             return produtoRepository.save(produto);
         } else {
-            throw new RuntimeException("Produdo já cadastrado");
+            throw new RuntimeException("Produdo já cadastrado b");
         }
 
     }
